@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE4B49C32F7BF80B0049B160 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE4B49C22F7BF8010049B160 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		CE4B49C22F7BF8010049B160 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE5B284D2F7A50FB000A506B /* LogicHoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicHoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		CE5B28442F7A50FB000A506B = {
 			isa = PBXGroup;
 			children = (
+				CE4B49C22F7BF8010049B160 /* README.md */,
 				CE5B284F2F7A50FB000A506B /* LogicHoot */,
 				CE5B284E2F7A50FB000A506B /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4B49C32F7BF80B0049B160 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
